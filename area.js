@@ -2,7 +2,6 @@ var fs = require('fs');
 var Vector3 = require('vector-3');
 var vectors = [];
 var faces = [];
-var vpoints = [];
 var output = [];
 var location = process.argv[2];
 // Reading the file
