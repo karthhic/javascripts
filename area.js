@@ -1,5 +1,5 @@
-var	fs	=	require('fs');
-var	Vector3	=	require('vector-3');
+var fs = require('fs');
+var Vector3 = require('vector-3');
 var vectors = [];
 var faces = [];
 var vpoints = [];
