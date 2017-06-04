@@ -3,11 +3,10 @@ var Vector3 = require('vector-3');
 var vectors = [];
 var faces = [];
 var vpoints = [];
-var triarea=[];
 var output = [];
 var location = process.argv[2];
 // Reading the file
-var img = fs.readFile(location, function (err, data) {
+fs.readFile(location, function (err, data) {
    if (err) {
       return console.error(err);
    }
