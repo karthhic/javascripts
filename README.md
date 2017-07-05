@@ -7,4 +7,4 @@ Will take the obj filename as input and calculate the surface area of the 3D mod
 usage : nodejs area.js filename.obj
 
 ## Forecast.js :- 
-Take input values as arrays x and t for training and frc's values has to be forecasted. This uses Linear Regression as the forecasting technique.
+Take input values as arrays seconds and energy [watts/sec] for training and array forecast's values has to be forecasted. This uses Linear Regression as the forecasting technique.
